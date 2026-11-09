@@ -28,7 +28,7 @@ jobs:
           tenant_id: ${{ secrets.AZURE_TENANT_ID }}
           client_id: ${{ secrets.AZURE_CLIENT_ID }}
           # Use Maester 3.0. Without this the action keeps installing Maester 2.x.
-          maester_major_version: "3"
+          maester_major_version: "2"
           # Check out this repository to use its maester-config.json and custom tests, if it has any
           include_private_tests: true
           include_exchange: false
